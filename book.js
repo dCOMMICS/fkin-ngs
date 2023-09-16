@@ -190,7 +190,7 @@ function getLenders(amount, apr, years, zipcode) {
  var rightEdge = paymentToX(payments); // X coordinate of Y axis
  for(var i = 0; i < ticks.length; i++) { // For each of the 2 points
  var y = amountToY(ticks[i]); // Compute Y position of tick
-1.2 Client-Side JavaScript | 17
+// 1.2 Client-Side JavaScript | 17
  g.fillRect(rightEdge-3, y-0.5, 3,1); // Draw the tick mark
  g.fillText(String(ticks[i].toFixed(0)), // And label it.
  rightEdge-5, y);
