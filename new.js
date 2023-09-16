@@ -38,3 +38,19 @@ anotherObj = {
     // concise computed generator name
     *[ "ok, greet 6".toUpperCase() ]() { yield "Hello, audience!"; }
 };
+
+
+myObj = {
+    favoriteNumber: 42,
+    isDeveloper: true,
+    firstName: "Kyle"
+};
+
+const favoriteNumber = (
+    myObj.favoriteNumber !== undefined ? myObj.favoriteNumber : 42
+);
+const isDev = myObj.isDeveloper;
+const firstName = myObj.firstName;
+const lname = (
+    myObj.lastName !== undefined ? myObj.lastName : "--missing--"
+);
