@@ -23,4 +23,8 @@ function f() {
     firstName: "Kyle"
 };
 
+function twenty() { return 20; }
 
+myObj = {
+    favoriteNumber: (twenty() + 1) * 2,
+};
