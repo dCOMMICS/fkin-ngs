@@ -1,1 +1,1 @@
-console.log("Dance like no one is watching")
+console.log(THREE)
