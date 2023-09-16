@@ -28,3 +28,13 @@ function twenty() { return 20; }
 myObj = {
     favoriteNumber: (twenty() + 1) * 2,
 };
+
+anotherObj = {
+    "greet-4"() { console.log("Hello, audience!"); },
+
+    // concise computed name
+    [ "gr" + "eet 5" ]() { console.log("Hello, audience!"); },
+
+    // concise computed generator name
+    *[ "ok, greet 6".toUpperCase() ]() { yield "Hello, audience!"; }
+};
