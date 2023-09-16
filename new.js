@@ -60,7 +60,7 @@ myObj = {
     isDeveloper: true,
     firstName: "Kyle"
 };
-
+//
 const { favoriteNumber = 12 } = myObj;
 const {
     isDeveloper: isDev,
