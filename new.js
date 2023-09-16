@@ -54,3 +54,21 @@ const firstName = myObj.firstName;
 const lname = (
     myObj.lastName !== undefined ? myObj.lastName : "--missing--"
 );
+
+myObj = {
+    favoriteNumber: 42,
+    isDeveloper: true,
+    firstName: "Kyle"
+};
+
+const { favoriteNumber = 12 } = myObj;
+const {
+    isDeveloper: isDev,
+    firstName: firstName,
+    lastName: lname = "--missing--"
+} = myObj;
+
+favoriteNumber;   // 42
+isDev;            // true
+firstName;        // "Kyle"
+lname;            // "--missing--"
