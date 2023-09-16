@@ -14,3 +14,13 @@ function f() {
     console.log(scope); // And here it has the value we expect
    }
    
+
+   // 
+
+   myObj = {
+    favoriteNumber: 42,
+    isDeveloper: true,
+    firstName: "Kyle"
+};
+
+
