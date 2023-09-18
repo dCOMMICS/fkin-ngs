@@ -196,3 +196,6 @@ function getLenders(amount, apr, years, zipcode) {
  rightEdge-5, y);
  }
 }
+
+
+
