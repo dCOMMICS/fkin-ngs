@@ -1,3 +1,3 @@
 string food = "chapo"; 
 
-cout<<food;
+cout<<food; // should print out chapo //
